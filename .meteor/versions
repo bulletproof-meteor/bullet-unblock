@@ -13,6 +13,7 @@ ctl@1.0.2
 ddp@1.0.10
 deps@1.0.5
 ejson@1.0.4
+email@1.0.4
 fastclick@1.0.1
 follower-livedata@1.0.2
 geojson-utils@1.0.1
@@ -24,12 +25,17 @@ insecure@1.0.1
 jquery@1.0.1
 json@1.0.1
 livedata@1.0.11
+localstorage@1.0.1
 logging@1.0.4
 meteor-platform@1.1.2
 meteor@1.1.2
+meteorhacks:kadira-binary-deps@1.2.0
+meteorhacks:kadira@2.11.13
+meteorhacks:meteorx@1.2.0
 minifiers@1.1.1
 minimongo@1.0.4
 mobile-status-bar@1.0.1
+mongo-livedata@1.0.6
 mongo@1.0.7
 observe-sequence@1.0.3
 ordered-dict@1.0.1
