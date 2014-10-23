@@ -37,3 +37,9 @@ legend {
 .todo .todo-done {
   margin-bottom: 6px;
 }
+
+#ddp-status {
+  margin-bottom: 5px;
+  color: #8E8E8E;
+  visibility: hidden;
+}
