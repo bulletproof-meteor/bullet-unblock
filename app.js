@@ -6,8 +6,8 @@ Todos.allow({
 
 Meteor.methods({
   addTodo: function(title) {
+    check(title, String);
     var a =  Todos.insert({'title': title});
-    console.log('n8866666');
   }
 });
 
@@ -18,6 +18,7 @@ if(Meteor.isServer) {
 }
 
 if(Meteor.isClient) {
+  Meteor.call('trackLocation');
   Meteor.subscribe('todos');
 
   Template.main.events({
